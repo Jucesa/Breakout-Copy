@@ -114,7 +114,7 @@ int main(){
     Ball ball = {ballX, ballY, ballDX, ballDY, ballRadius};
     
     //destroy brick sound
-    Sound brickSound = LoadSound("/brick.wav");
+    Sound brickSound = LoadSound("./break.mp3");
     
     //map
     int rows = 11, columns = 6;
